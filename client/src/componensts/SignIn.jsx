@@ -75,7 +75,7 @@ const SignIn = () => {
         <Link to={"/sign-up"}>
           <span className=" text-blue-700">Sign up</span>
         </Link>
-      </div>
+      </div>d
       {error && <p className=" text-red-600"> {error}</p>}
     </div>
   );
